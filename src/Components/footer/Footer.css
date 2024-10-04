@@ -1,0 +1,39 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: black; 
+    color: white; 
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer-section a:hover {
+    color: lightgray; 
+}
+
+.footer-section i {
+    color: inherit; 
+    margin-right: 5px;
+}
+
+.footer-section h5 {
+    color: white; 
+    text-decoration: underline; 
+}
+
+.footer-section p {
+    color: white; 
+}
+
+

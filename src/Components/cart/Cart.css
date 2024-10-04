@@ -1,0 +1,80 @@
+.cart-container {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    max-width: 700px;
+    margin: 40px auto;
+    border: 2px solid darkkhaki;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+    font-size: 2.5rem;
+    color: darkslateblue;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Arial Black',sans-serif;
+}
+
+.cart-items {
+    margin-bottom: 30px;
+}
+
+.cart-item, .cart-item-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid darkgray;
+    font-size: 1.2rem;
+    font-family: 'Verdana', sans-serif;
+}
+
+.cart-item-total {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.payment-options {
+    text-align: center;
+}
+
+.payment-title {
+    font-size: 1.8rem;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.payment-button {
+    margin: 10px;
+    padding: 15px 25px;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.payment-button:hover {
+    background-color: darkcyan;
+}
+
+.payment-button.selected {
+    background-color: mediumseagreen;
+    font-weight: bold;
+}
+
+.upi-qr {
+    margin-top: 20px;
+}
+
+.upi-qr img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid darkorange;
+}
+
+
+

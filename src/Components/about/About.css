@@ -1,0 +1,85 @@
+.about-container {
+    font-family: 'Arial',sans-serif;
+    padding: 40px 20px;
+    background-color: lightgray;
+}
+
+.about-details {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.text-primary {
+    font-size: 1.1rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2,h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: dimgray;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.feature-list li:before {
+    content: '✓ ';
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.mission-vision-section, .store-products {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.store-features {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .about-container {
+        padding: 20px 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
